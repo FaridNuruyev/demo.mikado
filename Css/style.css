@@ -1,0 +1,203 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+
+.navbar-left{
+    background-image: url('https://demo.mikado-themes.com/onyx50/wp-content/uploads/2015/03/left-menu-background.jpg');
+    background-color: #1e1d1d;
+    position: fixed;
+    width: 20%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+
+}
+
+.logo>a>img{
+    padding: 61px 0 0 45px;
+    width: 200px;
+    height: 82px;
+    
+}
+.nav-menu {
+    margin-top: 37px;
+}
+
+
+
+.menu-item{
+    padding:10px 10px;
+}
+.menu>li>a{
+    color: white;
+    padding-top: 10px;
+
+}
+
+
+
+
+.open>ul>li>a{
+    color:white;
+    padding-top: 5px;
+    font-size: 13px;
+}
+.menu>li>a:hover{
+    color:#d34e35 ;
+}
+.open>ul>li>a:hover{
+    color:#d34e35 ;
+}
+#pages{
+    color:white;
+    margin-right: 20px;
+    font-size: 10px;
+}
+#blog{
+    color:white;
+    margin-right: 20px;
+    font-size: 10px;
+}
+#portfolio{
+    color:white;
+    margin-right: 20px;
+    font-size: 10px;
+}
+.sosial> h5{
+    color: white;
+}
+    
+.sosial {
+    text-align: center;
+    float: left;
+    font-size: 20px;
+    padding-left: 40px;
+    
+}
+
+
+.sosial> a {
+    color:white;
+    padding-left: 5px;
+}
+.links a:hover {
+    color:transparent;
+}
+
+
+/* context hisse */
+
+    
+/*CONTEXT*/
+.context {
+    margin-left: 265px;
+}
+.context>.product {
+    border: 1px solid rgb(238, 238, 238);
+    width: 370px;
+    height: 370px;
+    float: left;
+}
+
+.product img {
+    padding: 0 40px;
+    width: 300px;
+    height: 300px;
+    transition: 0.4s;
+}
+
+.pseudoIcon {
+    position: relative;
+    transition: 0.4s;
+}
+
+.product .pseudoIcon i {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.overlay {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    transition: 0.4s;
+}
+
+.pseudoIcon:hover .overlay {
+    opacity: 0.5;
+}
+
+.pseudoIcon:hover i {
+    display: block;
+    cursor: pointer;
+    color: #d34e35;
+    font-size: 30px;
+    line-height: 20px;
+}
+
+.productInfo {
+    padding: 5px 20px 0 20px
+}
+
+.productName>a {
+    text-decoration: none;
+    color: #555555;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 33px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.productName>a:hover {
+    color: #d34e35;
+}
+
+.price {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #d34e35;
+    cursor: pointer;
+}
+
+.btn {
+    float: right;
+}
+
+.btn>a {
+    text-decoration: none;
+    color: #555555;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 33px;
+    font-weight: 400px;
+    cursor: pointer;
+}
+
+.btn>a:hover {
+    background-color: #d34e35;
+    color: white;
+}
+
+    
+
+
+
+
+    
+    
+
